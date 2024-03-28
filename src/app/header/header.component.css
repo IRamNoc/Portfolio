@@ -1,37 +1,53 @@
-li:hover,.home:hover {
-    background-color: rgb(51, 59, 61);
+/* Couleur principale de la barre de navigation */
+nav {
+  background-color: #002233; /* Bleu Royal Foncé */
 }
 
-i:hover,a:hover {
-    background-color: rgb(45, 51, 53);
-}
-nav{
-    background-color: #212529;
+/* Couleur de survol pour les éléments de la liste et la maison */
+li:hover, .home:hover, .nav-home:hover {
+  background-color: #00334D; /* Un bleu légèrement plus clair pour le survol */
 }
 
-i{
+/* Couleur de survol pour les icônes et les liens */
+i:hover, a:hover {
+  background-color: #00334D; /* Bleu intermédiaire pour le survol */
+}
+
+/* Style des icônes */
+i {
   font-size: 24px;
   padding-right: 6px;
-  color: #6f7180;
+  color: #B9B879; /* Doré pour les icônes */
 }
 
-.nav-home:hover{
-  background-color: rgb(51, 59, 61);
-}
-mat-radio-button{
-  color:white;
-}
-a{
+/* Style des liens */
+a {
   display: flex;
   align-items: center;
   padding: 3px 4px;
   margin-bottom: 2px;
   transition: 0.3s;
   font-size: 15px;
+  color: #FFFFFF; /* Texte en blanc */
 }
 
-li{
+/* Style des éléments de liste */
+li {
   display: inline-flex;
 }
 
+/* Style des boutons de sélection de la langue */
+mat-radio-button {
+  color: #aaa8a8c7; /* Doré pour le texte */
+}
 
+/* Couleur du bouton de sélection des langues lorsqu'il est sélectionné */
+mat-radio-button.mat-radio-checked {
+  background-color: #002233; /* Doré pour le fond */
+  color: #FFFFFF; /* Bleu Royal Foncé pour le texte */
+}
+
+/* Couleur de fond du bouton de sélection des langues lorsqu'il n'est pas sélectionné */
+mat-radio-button {
+  background-color: transparent; /* Transparent pour le fond */
+}

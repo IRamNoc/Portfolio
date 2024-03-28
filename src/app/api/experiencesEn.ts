@@ -1,51 +1,76 @@
 export const experiencesEn = [
     {
-        title: "Freelance developer",
-        company: 'Scotfy, Lyon, Fr',
-        period: "2020 - 2021 (2 months)",
-        technologies: 'C#, .NET, Angular 11, Angular Materials, pgSql, Qlik Sense',
+        title: "Corporate Internship",
+        company: "Eviden, Bordeaux - Pessac, France",
+        period: "2023 - 2024",
+        technologies: "FullStack Engineer, Java Spring Boot, Spring Batch, Angular, Agile, PostgreSQL, Postman, Node.js",
         missions: [
-            "Implementation of a theme manager (colors, logo).",
-            "Setting up a virtual folder manager that can contain Qlik Sense apps.",
-            "Development of a resource saving interface.",
-            "Creating customizable web pages: Qlik Sense Mashups (In progress).",
+            "Development of the new service provider management application for the Allianz insurance project.",
+            "Work in Agile methodology, with a strong FullStack development component."
+        ],
+        detailIsDisplayed: false
+    },
+    {
+        title: "Programming Internship in Company",
+        company: "Global Strategy Portugal, Lisbon, Portugal",
+        period: "2023 (4 months)",
+        technologies: "Web Development, Angular, PHP, OVH, JavaScript, GoogleAds, PostgreSQL",
+        missions: [
+            "Worked on the redesign and maintenance of the website and database.",
+            "Designed and implemented Google Ads campaigns.",
+            "For a Portuguese insurance and real estate sales company."
+        ],
+        detailIsDisplayed: false
+    },
+    {
+        title: "Programming Internship in Company",
+        company: "IZNES, Barcelona, Spain",
+        period: "2022 (2 months)",
+        technologies: "Frontend Development, Angular (Ngrx), Software Engineering, Python",
+        missions: [
+            "Internship as a Software Engineer Intern. Angular frontend development.",
         ],
         detailIsDisplayed: false,
     },
     {
-        title: "Freelance developer",
-        company: 'AGC Glass Europe, Maubeuge, Fr',
-        period: "2020 - 2021 (5 months)",
-        technologies: 'JAVA 8, Spring, Angular 8, Angular Materials, MySql',
+        title: "Vaccination Center Volunteer",
+        company: "SDIS 80, Amiens, France",
+        period: "2021 (3 months)",
+        technologies: "Computer Management, Regulation, Reception, Logistics, Teamwork",
         missions: [
-            "Development of a supplier rating application by buyers.",
-            "Evolutionary and corrective maintenance of applications.",
+            "Engaged as a volunteer firefighter, held various positions necessary for",
+            "the daily functioning of the vaccination center: reception, logistics, regulation, computer management.",
         ],
         detailIsDisplayed: false,
     },
     {
-        title: "Work-study developer",
-        company: 'AGC Glass Europe, Maubeuge, Fr',
-        period: "2019 - 2020 (1 year)",
-        technologies: 'JAVA 8, Spring, Angular 8, Angular Materials, MySql',
+        title: "Manual Labor Work in England",
+        company: "Private Individuals, Liverpool, UK",
+        period: "2018 - 2019 (2 months)",
+        technologies: "Manual Handling, Customer Service, Adaptability, Physical Work",
         missions: [
-            "Application for managing trucks entering the site",
-            "Improving an application for creating prevention plans.",
-            "Glass order formatting application, in the interest of better readability of priorities for production teams.",
-            "Creating customizable web pages: Qlik Sense Mashups (In progress).",
+            "Service to individuals, manual handling, Liverpool area.",
         ],
         detailIsDisplayed: false,
     },
     {
-        title: "Software Developer Intern",
-        company: 'Scotfy, Lyon, Fr',
-        period: "2018 (3 months)",
-        technologies: 'C#, .NET, Chiffrement AES-256',
+        title: "Company Internship",
+        company: "Engineering Firm SOCOTEC, ARRAS, France",
+        period: "2017 - 2018 (1 month)",
+        skill: "Technical Observation, Material Resistance, Engineering, Research",
         missions: [
-            "Multilingual: Implementation of a language management system to allow the user to choose the language of interfaces, messages and logs.",
-            "License key: Software validation using a license key based on the Windows user name.",
+            "Discovery and observation internship in an engineering firm specializing in material resistance.",
+        ],
+        detailIsDisplayed: false,
+    },
+    {
+        title: "Private Tutoring",
+        company: "Private Individuals",
+        period: "2015 - 2023",
+        skill: "Teaching, Scientific Subjects, Music Education, Pedagogy, Percussion",
+        missions: [
+            "Scientific high school and BTS subjects, music education, percussion.",
         ],
         detailIsDisplayed: false,
     },
 ];
-

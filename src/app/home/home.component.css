@@ -23,3 +23,40 @@ h1{
     letter-spacing: 1px;
     border-bottom: 3px solid #149ddd;
 }
+
+.text-background {
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 34, 51, 0); /* Semi-transparent #002233 */
+    border-radius: 10px; /* Coins arrondis pour un effet plus doux */
+    padding: 10px 20px; /* Moins d'espacement en haut et en bas, plus sur les côtés */
+    display: inline-block; /* Adapte la largeur de l'arrière-plan à celle du contenu */
+    margin: 0 auto; /* Centrage horizontal si nécessaire */
+  }
+  
+  /* S'assurer que l'effet de flou est supporté */
+  @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    .text-background {
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
+    }
+  }
+  
+  /* Assurez-vous que le texte est lisible */
+  .hero-container h1,
+  .hero-container p {
+    color: white; /* Le texte en blanc pour un contraste élevé */
+    margin: 0; /* Réinitialiser les marges si nécessaire */
+    text-align: center; /* Centrer le texte */
+  }
+  
+  /* Appliquez des styles spécifiques au cas où .text-background est trop large */
+  .hero-container h1 {
+    padding: 10px 20px; /* Ajustez selon le contenu */
+  }
+  
+  .hero-container p {
+    padding: 5px 10px; /* Ajustez selon le contenu */
+  }
+  
+  
+  

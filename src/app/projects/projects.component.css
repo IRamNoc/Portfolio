@@ -30,4 +30,7 @@ li.active{
   text-align: center;
 }
 
-
+#portfolio{
+  margin-right: 30px;
+  margin-left: 20px;
+}

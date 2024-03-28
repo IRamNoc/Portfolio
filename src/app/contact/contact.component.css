@@ -5,10 +5,11 @@ body{
 .contact{
     padding: 4%;
     height: 400px;
+    margin-right: 10px;
 }
 
 .col-md-3{
-    background: #1478a7;
+    background:  #17A7C6;
     padding: 4%;
     border-top-left-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;
